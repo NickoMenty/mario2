@@ -1,0 +1,10 @@
+{
+    "name": "memeland-minigame",
+    "version": "1.0.1",
+    "description": "",
+    "scripts":{
+        "start": "node server.js",
+        "dist": "surge --domain memeland-minigame.surge.sh",
+        "lint": "eslint src"
+    }
+}

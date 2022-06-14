@@ -1,0 +1,72 @@
+html, body, ul, li {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+
+
+canvas {    
+    display: block;
+    width: 652px;
+    height: 502px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+
+p {
+  text-align: center;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gamewindow {
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%;-50%);
+}
+
+.console{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.console img{
+    width: 100%;
+    min-height: 100%;
+}
+
+.mb10{
+    font-size: 44px;
+    color: #000;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
